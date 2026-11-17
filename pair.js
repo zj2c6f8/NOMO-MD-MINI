@@ -27,7 +27,7 @@ const {
 
 // ---------------- CONFIG ----------------
 
-const BOT_NAME_FANCY = '> \`❝ 𝐍𝐎𝐌𝐎 𝐌𝐃 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓♡🕊️ ❞\`';
+const BOT_NAME_FANCY = '> \`❝ 𝐒𝐈𝐓𝐇𝐔𝐖𝐀 𝐌𝐃 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓♡🕊️ ❞\`';
 
 const config = {
   AUTO_VIEW_STATUS: 'false',
@@ -36,24 +36,23 @@ const config = {
   AUTO_LIKE_EMOJI: ['🔥','😀','👍','😃','😄','😁','😎','🥳','🌞','🌈','❤️'],
   PREFIX: '.',
   MAX_RETRIES: 3,
-  GROUP_INVITE_LINK: 'https://chat.whatsapp.com/LMlfzAc3iDj2pdQMmxwoXu',
-  RCD_IMAGE_PATH: 'https://saviya-kolla-database.koyeb.app/IMAGES/SAVIYA_1773509692934_ffvnqp.png',
-  NEWSLETTER_JID: '120363421675697127@newsletter',
+  GROUP_INVITE_LINK: 'https://chat.whatsapp.com/Gx3G5n1xcY7E02RLJczBk6?s=cl&p=a&iam=2',
+  RCD_IMAGE_PATH: 'https://files.catbox.moe/vfi5zf.jpg',
+  NEWSLETTER_JID: '120363414436195692@newsletter',
   OTP_EXPIRY: 300000,
-  OWNER_NUMBER: process.env.OWNER_NUMBER || '94720689634',
-  CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb6FwIK89inhtCZOlp12',
-  BOT_NAME: '𝐍𝐎𝐌𝐎 𝐌𝐃 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓♡🕊️',
+  OWNER_NUMBER: process.env.OWNER_NUMBER || '94762108015',
+  CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbESdEb0bIddvCa90t2C',
+  BOT_NAME: '𝐒𝐈𝐓𝐇𝐔𝐖𝐀 𝐌𝐃 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓♡🕊️',
   BOT_VERSION: '1.0.0V',
-  OWNER_NAME: 'Anuhas',
-  IMAGE_PATH: 'https://saviya-kolla-database.koyeb.app/IMAGES/SAVIYA_1773509692934_ffvnqp.png',
-  BOT_FOOTER: '> \`❝ 𝐍𝐎𝐌𝐎 𝐌𝐃 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓♡🕊️ ❞\`',
-  BUTTON_IMAGES: { ALIVE: 'https://saviya-kolla-database.koyeb.app/IMAGES/SAVIYA_1773509692934_ffvnqp.png' }
+  OWNER_NAME: '𝐬𝐢𝐭𝐡𝐮𝐰𝐚',
+  IMAGE_PATH: 'https://files.catbox.moe/vfi5zf.jpg',
+  BOT_FOOTER: '> \`❝ 𝐒𝐈𝐓𝐇𝐔𝐖𝐀 𝐌𝐃 𝐌𝐈𝐍𝐈 𝐁𝐎𝐓♡🕊️ ❞\`',
+  BUTTON_IMAGES: { ALIVE: 'https://files.catbox.moe/vfi5zf.jpg' }
 };
 
 // ---------------- MONGO SETUP ----------------
-
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://mrdevile246_db_user:Nomo%402011@nomomdmini.m97jptz.mongodb.net/?retryWrites=true&w=majority&appName=NOMOMDMINI';
-const MONGO_DB = process.env.MONGO_DB || 'NOMO'
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://jayathilakasumith94_db_user:fLFa%402ZqAvI9ixZb@sithuwabotdb.ygscrhx.mongodb.net/';
+const MONGO_DB = process.env.MONGO_DB || 'SITHUWA'
 let mongoClient, mongoDB;
 let sessionsCol, numbersCol, adminsCol, newsletterCol, configsCol, newsletterReactsCol;
 
